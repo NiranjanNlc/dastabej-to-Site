@@ -1,3 +1,35 @@
+# Virtual environments
 paddle310/
 paddleenv/
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Output files
+output_cpu/
+extracted_text.txt
+extracted_text_ne.txt
+index.html
+*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 
