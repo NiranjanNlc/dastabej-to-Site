@@ -1,0 +1,175 @@
+{
+    "input_path": "C:\\Users\\ACER\\Music\\ernie\\ernie-web-builder\\sample.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 500,
+    "height": 659,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "GENZ\nLEADER",
+            "block_bbox": [
+                188,
+                186,
+                305,
+                247
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                0,
+                0,
+                500,
+                387
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "NEPALI JANATA",
+            "block_bbox": [
+                374,
+                227,
+                480,
+                289
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "RASWAPA",
+            "block_bbox": [
+                64,
+                325,
+                193,
+                355
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "CONGRESS\nCOMMUNIST",
+            "block_bbox": [
+                184,
+                532,
+                351,
+                594
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4
+        },
+        {
+            "block_label": "footer",
+            "block_content": "imgflip.com",
+            "block_bbox": [
+                2,
+                644,
+                61,
+                657
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.42565232515335083,
+                "coordinate": [
+                    188.69573974609375,
+                    186.85350036621094,
+                    305.682373046875,
+                    247.84291076660156
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5854990482330322,
+                "coordinate": [
+                    0.10321044921875,
+                    0,
+                    500,
+                    387.8401184082031
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.62727952003479,
+                "coordinate": [
+                    374.7691650390625,
+                    227.43836975097656,
+                    480.60577392578125,
+                    289.850830078125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6619428396224976,
+                "coordinate": [
+                    64.37599182128906,
+                    325.53179931640625,
+                    193.5389862060547,
+                    355.19842529296875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.650344729423523,
+                "coordinate": [
+                    184.24191284179688,
+                    532.32421875,
+                    351.0552062988281,
+                    594.249755859375
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.5846403241157532,
+                "coordinate": [
+                    2.566110610961914,
+                    644.00927734375,
+                    61.78630828857422,
+                    657.12890625
+                ]
+            }
+        ]
+    }
+}
