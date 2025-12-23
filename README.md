@@ -74,11 +74,55 @@ Options:
 └── output_cpu/             # Output directory for OCR results
 ```
 
-## License
+## License 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-[Add your license here]
+**MIT License** allows you to:
+- ✅ Use commercially
+- ✅ Modify
+- ✅ Distribute
+- ✅ Private use
+
+The only requirement is to include the original license and copyright notice.
 
 ## Contributing
 
-[Add contribution guidelines here]
+Contributions are welcome! We're excited to see how you can help improve **dastabej-to-Site**.
 
+### How to Contribute
+
+1. **Fork the repository** and clone your fork
+2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Make your changes** following the coding standards below
+4. **Test your changes** to ensure everything works
+5. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
+6. **Push to the branch** (`git push origin feature/amazing-feature`)
+7. **Open a Pull Request** with a clear description of your changes
+
+### Contribution Guidelines
+
+- **Code Style**: Follow PEP 8 Python style guidelines
+- **Documentation**: Update README.md if you add new features or change usage
+- **Testing**: Test your changes with sample PDFs before submitting
+- **Commit Messages**: Write clear, descriptive commit messages
+- **Pull Requests**: 
+  - Provide a clear title and description
+  - Reference any related issues
+  - Include examples of your changes working
+
+### Areas for Contribution
+
+- 🌐 **Language Support**: Add support for more languages (Hindi, Bengali, etc.)
+- 🎨 **HTML Templates**: Improve the generated HTML templates and styling
+- 🐛 **Bug Fixes**: Fix issues and improve error handling
+- 📚 **Documentation**: Improve documentation, add examples, tutorials
+- ⚡ **Performance**: Optimize OCR processing and HTML generation
+- 🔧 **Features**: Add new features like batch processing, web interface, etc.
+
+### Questions?
+
+If you have questions or need help, please open an issue and we'll be happy to assist!
+
+---
+
+**Thank you for contributing to making political documents more accessible!** 🙏
